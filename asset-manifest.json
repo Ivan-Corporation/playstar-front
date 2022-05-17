@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/newfront/static/css/main.84d44e07.css",
-    "main.js": "/newfront/static/js/main.98dfd9ce.js",
+    "main.css": "/newfront/static/css/main.53c21904.css",
+    "main.js": "/newfront/static/js/main.2fbc4756.js",
     "static/js/787.1c31865b.chunk.js": "/newfront/static/js/787.1c31865b.chunk.js",
-    "static/media/slider-example.png": "/newfront/static/media/slider-example.3360e38438ffe6428f63.png",
+    "static/media/slider-example.png": "/newfront/static/media/slider-example.6e1d9e1cbfe5c4ff894e.png",
     "static/media/slider-example3.jpg": "/newfront/static/media/slider-example3.c9ba5a3a67e6b6345cff.jpg",
     "static/media/slider-example2.jpg": "/newfront/static/media/slider-example2.7c9474f030e20d5c55d0.jpg",
     "static/media/slider-example4.jpg": "/newfront/static/media/slider-example4.7361d23bedf8c1653e33.jpg",
     "index.html": "/newfront/index.html",
-    "main.84d44e07.css.map": "/newfront/static/css/main.84d44e07.css.map",
-    "main.98dfd9ce.js.map": "/newfront/static/js/main.98dfd9ce.js.map",
+    "main.53c21904.css.map": "/newfront/static/css/main.53c21904.css.map",
+    "main.2fbc4756.js.map": "/newfront/static/js/main.2fbc4756.js.map",
     "787.1c31865b.chunk.js.map": "/newfront/static/js/787.1c31865b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.84d44e07.css",
-    "static/js/main.98dfd9ce.js"
+    "static/css/main.53c21904.css",
+    "static/js/main.2fbc4756.js"
   ]
 }
