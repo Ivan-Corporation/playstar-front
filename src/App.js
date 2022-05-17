@@ -18,7 +18,7 @@ function App() {
   return (
     <div className='main-content'>
     <div className='App'>
-       <AutoplaySlider 
+    <AutoplaySlider 
        cssModule={AwsSliderStyles}
        play={true}
        cancelOnInteraction={false} 
