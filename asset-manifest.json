@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/newfront/static/css/main.d63dc946.css",
+    "main.js": "/newfront/static/js/main.dcade3da.js",
+    "static/js/787.1c31865b.chunk.js": "/newfront/static/js/787.1c31865b.chunk.js",
+    "static/media/slider-example.png": "/newfront/static/media/slider-example.6e1d9e1cbfe5c4ff894e.png",
+    "index.html": "/newfront/index.html",
+    "main.d63dc946.css.map": "/newfront/static/css/main.d63dc946.css.map",
+    "main.dcade3da.js.map": "/newfront/static/js/main.dcade3da.js.map",
+    "787.1c31865b.chunk.js.map": "/newfront/static/js/787.1c31865b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d63dc946.css",
+    "static/js/main.dcade3da.js"
+  ]
+}
