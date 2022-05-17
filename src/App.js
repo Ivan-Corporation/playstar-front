@@ -1,23 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import './assets/styles/App.css';
+import sliderExample from './assets/images/slider-example.png'
+import AwesomeSlider from 'react-awesome-slider';
+import AwsSliderStyles from './assets/styles/core/styles.scss';
+import withAutoplay from 'react-awesome-slider/dist/autoplay';
+
+const AutoplaySlider = withAutoplay(AwesomeSlider);
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='main-content'>
+    <div className='App'>
+       <AutoplaySlider 
+       cssModule={AwsSliderStyles}
+       play={true}
+       cancelOnInteraction={false} 
+       interval={6000}
+       >
+    <div data-src={sliderExample} />
+    <div data-src={sliderExample} />
+    <div data-src={sliderExample} />
+
+  </AutoplaySlider>
+  </div>
     </div>
   );
 }
