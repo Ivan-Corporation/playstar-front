@@ -31,6 +31,11 @@ function App() {
 
   </AutoplaySlider>
   </div>
+
+
+  {/* Horizontal */}
+
+  
     </div>
   );
 }
