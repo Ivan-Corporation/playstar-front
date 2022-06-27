@@ -1,7 +1,7 @@
 # Test for PlayStar
 
-<li>
+<ul>
 <li><strike>Main slider</strike>
 <li>Horizontal slider without arrows and scrollbar
 <li>Drawer
-</li>
+</ul>
