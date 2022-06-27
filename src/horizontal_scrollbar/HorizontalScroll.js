@@ -25,7 +25,7 @@ const numbers =  [
       id: 4,
       price: '150000р',
       trophy: 'Yellow star',
-      star: 'https://raw.githubusercontent.com/Ivan-Corporation/playstar-front/master/src/assets/images/stars/yellow-hollow.png'
+      star: 'https://raw.githubusercontent.com/Ivan-Corporation/playstar-front/master/yellow-hollow2.png'
     },
 
 
