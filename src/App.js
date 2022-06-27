@@ -2,7 +2,7 @@ import './assets/styles/App.css';
 import AwesomeSlider from 'react-awesome-slider';
 import AwsSliderStyles from './assets/styles/core/styles.scss';
 import withAutoplay from 'react-awesome-slider/dist/autoplay';
-import React from "react";
+import React, {useEffect} from "react";
 
 import sliderExample from './assets/images/slider-example.png'
 import sliderExample2 from './assets/images/slider-example2.jpg'
@@ -43,16 +43,7 @@ const titleList = [
   },
   {
     id: 7
-  },
-  {
-    id: 8
-  },
-  {
-    id: 9
-  },
-  {
-    id: 10
-  },
+  }
 
 ]
 
@@ -62,17 +53,21 @@ const AutoplaySlider = withAutoplay(AwesomeSlider);
 
 
 
+
+
 function App() {
 
 
-  const [isOpen, setIsOpen] = React.useState(true)
+  const [isOpen, setIsOpen] = React.useState(false)
     const toggleDrawer = () => {
         setIsOpen((prevState) => !prevState)
 
     }
 
 
-    
+
+
+ 
 
 
   return (
@@ -164,6 +159,9 @@ function App() {
     </div>
     ))}
 
+
+
+<a class="send-button">Update ⏳</a>
 
      </EZDrawer>
 

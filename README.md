@@ -4,6 +4,6 @@
 <li><strike>Main slider</strike>
 <li>Horizontal slider without arrows and scrollbar
 <li>Drawer
-<li>Pagination - load more
+<li>Button request on server
 <li>Glow stars
 </ul>
