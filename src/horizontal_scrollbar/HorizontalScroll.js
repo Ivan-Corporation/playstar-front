@@ -89,7 +89,11 @@ function HorizontalScroll() {
 
 
 <div>
-<ScrollContainer horizontal={true} className="container">
+<ScrollContainer 
+    horizontal={true}
+    className="container"
+    vertical={false}
+ >
   {horizontalScrollData.map(({id, price, trophy, star }) => (
     <div key={id} className="row">
     <img src={star} alt="star" className="stars"/>
