@@ -25,9 +25,15 @@
     display: flex;
 }
 
-.yellow-star-background {
-    border: 2px solid rgba(250, 255, 0, 0.49);
-    margin-top: 28px;
-    filter: blur(19px);
-    border-radius: 1px;
+.stars {
+    height: 100%;
+    width: auto;
+}
+
+.price {
+    float: right;
+}
+
+.trophy {
+    float: right;
 }
