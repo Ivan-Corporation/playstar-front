@@ -15,6 +15,17 @@
     margin-bottom: 30px;
 }
 
+@media(max-width: 600px) {
+    .row {
+        height: 78px;
+
+    }
+
+    .completed {
+        bottom: 95%;
+    }
+}
+
 .row:nth-child(1n) {
     background: #1A1A22;
 }

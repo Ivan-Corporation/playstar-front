@@ -54,6 +54,16 @@
     margin-top: 15px;
     transition: all 0.1s;
     outline: none;
+
+
+}
+
+@media(max-width: 600px) {
+    .wrapper-menu {
+        transform: scale(0.6);
+        right: -3px;
+        margin-top: 5px;
+    }
 }
 
 .wrapper-menu:hover {
@@ -85,7 +95,8 @@
     transition-duration: 0.4s;
     -webkit-transition-duration: 0.4s;
     top: 60px;
-    left: 30%
+    left: 30%;
+
 }
 
 .send-button:hover {
