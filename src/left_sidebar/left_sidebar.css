@@ -1,0 +1,139 @@
+:root {
+    --icon-size: 30px;
+}
+
+.sidebar {
+    row-gap: 40px;
+    background: #1a1a22;
+    display: flex;
+    flex-direction: column;
+    max-width: 130px;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+/* Logo */
+.sidebar__logo {
+    padding: 35px 0;
+}
+
+.sidebar__logo .logo__img {
+    width: 57px;
+    height: 57px;
+}
+
+/* Menu */
+.sidebar__menu-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+}
+
+.sidebar__menu-item:not(:first-child) {
+    margin-top: 40px;
+}
+
+.sidebar__menu-link {
+    cursor: pointer;
+    padding: 12px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease-in-out;
+}
+
+.sidebar__menu-link:hover {
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.5);
+}
+
+.sidebar__menu-link svg {
+    width: var(--icon-size);
+    height: var(--icon-size);
+}
+
+.sidebar__menu svg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidebar__menu-link_active {
+    stroke: #5aa6ff;
+    background: #288bff;
+    box-shadow: 0px 0px 28px rgba(40, 139, 255, 0.41);
+}
+
+/* Chats */
+.sidebar__chats {
+    margin-top: 30px;
+    flex-grow: 1;
+}
+
+.sidebar__chats .chats__btn {
+    width: var(--icon-size);
+    height: var(--icon-size);
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.sidebar__chats .chats__btn svg path {
+    fill: #494959;
+}
+
+/* Icons */
+
+/* Like icon */
+.sidebar__menu-icon_like path {
+    stroke: #494959;
+}
+
+.sidebar__menu-link_active .sidebar__menu-icon_like path {
+    fill: #fff;
+    stroke: #5aa6ff;
+}
+
+/* User icon */
+.sidebar__menu-icon_users path {
+    stroke: #494959;
+}
+
+.sidebar__menu-link_active .sidebar__menu-icon_users path {
+    fill: #fff;
+    stroke: #5aa6ff;
+}
+
+/* Star icon */
+.sidebar__menu-icon_star path {
+    stroke: #494959;
+}
+
+.sidebar__menu-link_active .sidebar__menu-icon_star path {
+    stroke: #5aa6ff;
+    fill: #fff;
+}
+
+/* Payments icon  */
+.sidebar__menu-icon_payments path {
+    fill: #494959;
+}
+
+.sidebar__menu-link_active .sidebar__menu-icon_payments path {
+    fill: #fff;
+}
+
+/* Progress icon */
+.sidebar__menu-icon_progress path {
+    fill: #494959;
+}
+
+.sidebar__menu-link_active .sidebar__menu-icon_progress path {
+    fill: #fff;
+}
