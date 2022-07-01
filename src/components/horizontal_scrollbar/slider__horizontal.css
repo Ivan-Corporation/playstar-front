@@ -1,0 +1,37 @@
+.slider__horizontal_close {
+    position: absolute;
+    left: 13%;
+    width: 80%;
+    top: 7%;
+
+}
+
+.slider__horizontal_open {
+    position: absolute;
+
+    top: 7%;
+    left: 11%;
+    width: 70%;
+}
+
+@media (max-width:950px) {
+    .slider__horizontal {
+        width: 70%;
+        left: 20%
+    }
+}
+
+
+@media (max-width:580px) {
+    .slider__horizontal {
+
+        left: 25%
+    }
+}
+
+@media (max-width:580px) {
+    .slider__horizontal {
+
+        display: none;
+    }
+}

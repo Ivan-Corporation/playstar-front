@@ -3,11 +3,11 @@
     background: #1a1a22;
     display: flex;
     flex-direction: column;
-    max-width: 130px;
+    max-width: 100px;
     width: 100%;
     height: 100%;
     align-items: center;
-    --icon-size: 30px;
+    --icon-size: 25px;
 }
 
 /* Logo */
