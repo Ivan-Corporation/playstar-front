@@ -1,12 +1,13 @@
 import React from 'react'
 
 // import component 👇
-import Drawer from 'react-modern-drawer'
+import Drawer from './drawer/index'
 
 //import styles 👇
 import './drawer/index.css'
 
 import logo from '../../images/logo.svg'
+import CardExample from './card/CardExample'
 
 
 function RightSidebar(params:any) {
@@ -27,6 +28,8 @@ function RightSidebar(params:any) {
           enableOverlay={false}
       >
           <button className='drawer__button_open' onClick={toggleDrawer}><div className="arrow-right"></div></button>
+
+          <CardExample/>
       </Drawer>
   </>
     )

@@ -1,11 +1,11 @@
- 
-import './assets/styles/advt-card.css'
+ import './right_card.css'
+
 import React, {useEffect} from "react";
 
 
-import user from './assets/images/user.png'
-import stars from './assets/images/stars.svg'
-import triangle from './assets/images/triangles.svg'
+import user from '../card/card_images/user.png'
+import stars from '../card/card_images/stars.svg'
+import triangle from '../card/card_images/triangles.svg'
  
 
 const titleList = [
@@ -20,15 +20,28 @@ const titleList = [
     },
     {
       id: 4
-    }
+    },
+    {
+      id: 5
+    },
+    {
+      id: 6
+    },
+    {
+      id: 7
+    },
+    {
+      id: 8
+    },
     
   
   ]
   
   
- function CardExample() {
+function CardExample() {
     return (
 <React.Fragment>
+  <div style={{marginTop:'-135px'}}>
 {titleList.map(({id}) => ( 
     <div className="advt-card" id={id.toString()}>
     <div className="advt-card__content">
@@ -57,7 +70,7 @@ const titleList = [
 
           <div className="list-title__rating">
             <p className="rating__text">
-              Рейтинг: <span className="rating__number">1 328</span>
+              Рейтинг: <span className="rating__number">1 323</span>
             </p>
             <img src={stars} alt="rating-star" />
           </div>
@@ -92,13 +105,14 @@ const titleList = [
         <path d="M0 82.5003L9 76.8711V88.1294L0 82.5003Z" fill="#288BFF" />
       </svg>
 
-      <h2 className="price__text">$299</h2>
+      <h2 className="price__text">$29923</h2>
     </div>
   </div>
   ))}
+  </div>
   </React.Fragment>
     )
  }
  
  
- 
+ export default CardExample
