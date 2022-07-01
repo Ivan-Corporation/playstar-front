@@ -1,6 +1,17 @@
 import './horizontal_scroll.css';
 import ScrollContainer from "react-indiana-drag-scroll";
 
+
+interface HorizontalScrollProps {
+  id: number,
+  price: string,
+  trophy: string,
+  star: any
+}
+
+
+
+
 const horizontalScrollData =  [
     {
       id: 1,
@@ -88,24 +99,24 @@ function HorizontalScroll() {
 
 
 
-<div>
-<ScrollContainer 
-    horizontal={true}
-    className="container"
-    vertical={false}
- >
-  {horizontalScrollData.map(({id, price, trophy, star }) => (
-    <div key={id} className="row">
-    <img src={star} alt="star" className="stars"/>
-      <p className='price'>Заработано: {price}</p>
-      <p className='completed'>Выполнено:</p>
-      <p className='trophy'>{trophy}</p>
-    </div>
-  ))}
-</ScrollContainer>
-</div>
+  <div>
+  <ScrollContainer 
+      horizontal={true}
+      className="container"
+      vertical={false}
+   >
+    {horizontalScrollData.map(({id, price, trophy, star }) => (
+      <div key={id} className="row">
+      <img src={star} alt="star" className="stars"/>
+        <p className='price'>Заработано: {price}</p>
+        <p className='completed'>Выполнено:</p>
+        <p className='trophy'>{trophy}</p>
+      </div>
+    ))}
+  </ScrollContainer>
+  </div>
 
-  )
+    )
 }
 
 export default HorizontalScroll;

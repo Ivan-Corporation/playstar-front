@@ -1,0 +1,74 @@
+.EZDrawer .EZDrawer__checkbox {
+  display: none;
+}
+
+.EZDrawer .EZDrawer__checkbox:checked~.EZDrawer__overlay {
+  display: block;
+  opacity: 1;
+}
+
+.EZDrawer .EZDrawer__checkbox:checked~.EZDrawer__container {
+  visibility: visible;
+  transform: translate3d(0, 0, 0) !important;
+}
+
+.EZDrawer .EZDrawer__overlay {
+  display: none;
+  height: 100vh;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.EZDrawer .EZDrawer__container {
+  position: fixed;
+  visibility: hidden;
+  background: #1A1A22;
+  transition: all;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+.drawer__button_close {
+  position: absolute;
+  right: 0;
+  top: 45%;
+  height: 15%;
+  width: 1%;
+  background: #1A1A22;
+  border-radius: 4px 0px 0px 4px;
+  border-width: 1px;
+}
+
+.drawer__button_open {
+  position: relative;
+  top: 45%;
+  height: 15%;
+  width: 1%;
+
+
+  background: #1A1A22;
+  border-radius: 4px 0px 0px 4px;
+  right: 5%;
+  border-width: 0;
+}
+
+.arrow-right,
+.arrow-left,
+.long-arrow-right,
+.long-arrow-left {
+  width: 4px;
+  height: 4px;
+  border-top: 2px solid rgb(255, 255, 255);
+  border-left: 2px solid rgb(255, 255, 255);
+}
+
+.arrow-right,
+.long-arrow-right {
+  transform: rotate(135deg);
+}
+
+.arrow-left {
+  transform: rotate(-45deg);
+}
