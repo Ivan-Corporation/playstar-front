@@ -1,7 +1,7 @@
 .slider__horizontal_close {
     position: absolute;
-    left: 13%;
-    width: 80%;
+    left: 7%;
+    width: 91%;
     top: 7%;
 
 }
@@ -10,8 +10,8 @@
     position: absolute;
 
     top: 7%;
-    left: 11%;
-    width: 70%;
+    left: 7%;
+    width: 78%;
 }
 
 @media (max-width:950px) {

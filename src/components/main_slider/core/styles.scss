@@ -126,6 +126,9 @@
   }
 
   &__controls {
+
+
+
     button {
       @extend %clear-focus;
       display: flex;
@@ -137,13 +140,17 @@
       z-index: 10;
       top: calc(50% - (0.5 * var(--control-button-height)));
       border: none;
-      background-color: var(--control-button-background);
+      background-color: #0e08088a;
       color: #fff;
       cursor: pointer;
+      border-radius: 5px;
+      margin-right: -7px;
+      margin-left: -7px;
 
       .#{$root-element}__controls__arrow-left,
       .#{$root-element}__controls__arrow-right {
         opacity: var(--control-button-opacity);
+
       }
 
       &:hover {

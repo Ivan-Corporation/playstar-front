@@ -10,11 +10,17 @@ import logo from '../../images/logo.svg'
 import CardExample from './card/CardExample'
 
 
-function RightSidebar(params:any) {
-  const [isOpen, setIsOpen] = React.useState(false)
+function RightSidebar() {
+
+
+
+
+  const [isOpen, setIsOpen] = React.useState<boolean>(false)
   const toggleDrawer = () => {
       setIsOpen((prevState) => !prevState)
   }
+
+
 
 
     return(

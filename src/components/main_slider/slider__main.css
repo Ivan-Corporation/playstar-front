@@ -1,8 +1,15 @@
-.slider__main {
+.slider__main_open {
     position: absolute;
-    left: 11%;
+    left: 7%;
     top: 20%;
-    width: 70%;
+    width: 78%;
+}
+
+.slider__main_close {
+    position: absolute;
+    left: 7%;
+    top: 20%;
+    width: 91%;
 }
 
 @media (max-width:950px) {
