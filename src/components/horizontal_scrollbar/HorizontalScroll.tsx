@@ -17,7 +17,7 @@ const horizontalScrollData =  [
       id: 1,
       price: '5000р',
       trophy: 'Золото - алмаз',
-      star: 'https://raw.githubusercontent.com/Ivan-Corporation/playstar-front/master/src/assets/images/stars/blue.png'
+      star: ''
     },
     
     {
@@ -107,7 +107,7 @@ function HorizontalScroll() {
    >
     {horizontalScrollData.map(({id, price, trophy, star }) => (
       <div key={id} className="row">
-      <img src={user} alt="star" className="stars"/>
+      <img src={star} alt="star" className="stars"/>
         <div className='price'>Заработано: {price}</div>
         <div className='completed'>Выполнено:<br/> <div style={{fontSize:'15px', color:'white'}}>{trophy}</div></div>
       </div>

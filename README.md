@@ -8,8 +8,8 @@
 <li><strike>Button request on server</strike>
 <li><strike>Glow stars</strike>
 <li><strike>Refactor code</strike>
+<li><strike>Responsive on drawer state change</strike>
 <li>Header
 <li>Footer
-<li>Responsive on drawer state change
-
+<li>Data test
 </ul>
