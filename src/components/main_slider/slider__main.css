@@ -24,6 +24,11 @@
         width: 65%;
         left: 12%;
     }
+
+    .slider__main_close {
+        width: 85%;
+        left: 12%;
+    }
 }
 
 @media (max-width:1090px) {
@@ -38,12 +43,22 @@
         width: 60%;
         left: 14%;
     }
+
+    .slider__main_close {
+        left: 15%;
+        width: 79%;
+    }
 }
 
 @media (max-width:735px) {
     .slider__main_open {
         width: 50%;
         left: 17%;
+    }
+
+    .slider__main_close {
+        left: 19%;
+        width: 76%;
     }
 }
 
@@ -56,7 +71,9 @@
 }
 
 @media (max-width:580px) {
-    .slider__main_open {
+
+    .slider__main_open,
+    .slider__main_close {
 
         display: none;
     }

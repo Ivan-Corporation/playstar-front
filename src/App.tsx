@@ -10,6 +10,7 @@ import Drawer from './components/right_sidebar/drawer/index'
 import CardExample from './components/right_sidebar/card/CardExample'
 //import styles 👇
 import './components/right_sidebar/drawer/index.css'
+import Header from './components/header/Header';
 
 
 
@@ -22,9 +23,7 @@ function App() {
 
   return (
     <React.Fragment>
-      <header>
-
-      </header>
+    
 
 
       <div>

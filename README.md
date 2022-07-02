@@ -11,5 +11,5 @@
 <li><strike>Responsive on drawer state change</strike>
 <li>Header
 <li>Footer
-<li>Data test
+<li>Framer motion
 </ul>
