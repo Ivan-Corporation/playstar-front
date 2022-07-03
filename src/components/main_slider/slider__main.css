@@ -1,14 +1,14 @@
 .slider__main_open {
     position: absolute;
     left: 7%;
-    top: 20%;
+    top: 28%;
     width: 78%;
 }
 
 .slider__main_close {
     position: absolute;
     left: 7%;
-    top: 20%;
+    top: 28%;
     width: 91%;
 }
 
@@ -16,6 +16,7 @@
     .slider__main_open {
         width: 70%;
         left: 12%;
+
     }
 }
 
@@ -23,11 +24,14 @@
     .slider__main_open {
         width: 65%;
         left: 12%;
+        top: 30%;
     }
 
     .slider__main_close {
         width: 85%;
         left: 12%;
+        top: 30%;
+
     }
 }
 
@@ -45,8 +49,8 @@
     }
 
     .slider__main_close {
-        left: 15%;
-        width: 79%;
+        left: 12%;
+        width: 85%;
     }
 }
 

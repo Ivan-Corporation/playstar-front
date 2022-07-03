@@ -10,6 +10,28 @@
     --icon-size: 25px;
 }
 
+@media (max-width:1590px) {
+
+    .sidebar {
+        max-width: 90px;
+        --icon-size: 22px;
+    }
+
+
+
+}
+
+@media (max-width:1090px) {
+
+    .sidebar {
+        max-width: 70px;
+        --icon-size: 22px;
+    }
+
+
+
+}
+
 /* Logo */
 .sidebar__logo {
     padding: 35px 0;
@@ -18,6 +40,28 @@
 .sidebar__logo .logo__img {
     width: 57px;
     height: 57px;
+}
+
+@media (max-width:1590px) {
+
+    .sidebar__logo .logo__img {
+        width: 42px;
+        height: 42px;
+    }
+
+
+
+}
+
+@media (max-width:1090px) {
+
+    .sidebar__logo .logo__img {
+        width: 37px;
+        height: 37px;
+    }
+
+
+
 }
 
 /* Menu */

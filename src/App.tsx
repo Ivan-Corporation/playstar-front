@@ -11,6 +11,7 @@ import CardExample from './components/right_sidebar/card/CardExample'
 //import styles 👇
 import './components/right_sidebar/drawer/index.css'
 import Header from './components/header/Header';
+import { motion } from 'framer-motion'
 
 
 
@@ -24,17 +25,38 @@ function App() {
   return (
     <React.Fragment>
     
-
+    
 
       <div>
+      
         {isOpen ? <div className='slider__horizontal_open'><HorizontalScroll /></div> :  <div className='slider__horizontal_close'><HorizontalScroll /></div>}
         
        
-
+        <motion.div
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{
+                    ease: "easeInOut",
+                    duration: 1,
+                    delay: 0.5,
+                }}
+                >
         {isOpen ? <div className='slider__main_open'><MainSlider /></div> : <div className='slider__main_close'><MainSlider /></div>}
+        </motion.div>
+
+
+        <motion.div
+                initial={{ opacity: 0, x: -180 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{
+                    ease: "easeInOut",
+                    duration: 1,
+                    delay: 0.5,
+                }}
+                >
 
         <LeftSidebar />
-
+        </motion.div>
 
 
 

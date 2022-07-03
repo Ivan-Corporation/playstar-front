@@ -2,6 +2,7 @@ import './horizontal_scroll.css';
 import ScrollContainer from "react-indiana-drag-scroll";
 import user from "./user.png"
 import Header from '../header/Header';
+import { motion } from 'framer-motion'
 
 interface HorizontalScrollProps {
   id: number,
@@ -108,9 +109,28 @@ function HorizontalScroll() {
 
   <div>
       <header>
+      <motion.div
+                initial={{ opacity: 0, y: -180 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{
+                    ease: "easeInOut",
+                    duration: 1,
+                    delay: 0.4,
+                }}
+                >
       <Header/>
+      </motion.div>
         </header>
     
+        <motion.div
+                initial={{ opacity: 0, y: -180 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{
+                    ease: "easeInOut",
+                    duration: 1,
+                    delay: 0.3,
+                }}
+                >
   <ScrollContainer 
       horizontal={true}
       className="container"
@@ -124,7 +144,7 @@ function HorizontalScroll() {
       </div>
     ))}
   </ScrollContainer>
-  
+  </motion.div>
   </div>
 
     )
