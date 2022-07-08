@@ -3,9 +3,9 @@
 import React, {useEffect} from "react";
 
 
-import user from '../card/card_images/user.png'
-import stars from '../card/card_images/stars.svg'
-import triangle from '../card/card_images/triangles.svg'
+import user from '../../../images/card_images/user.png'
+import stars from '../../../images/card_images/stars.svg'
+import triangle from '../../../images/card_images/triangles.svg'
  
 
 const titleList = [

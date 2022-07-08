@@ -1,6 +1,6 @@
 import './horizontal_scroll.css';
 import ScrollContainer from "react-indiana-drag-scroll";
-import user from "./user.png"
+import user from "../../images/user.png"
 import Header from '../header/Header';
 import { motion } from 'framer-motion'
 
