@@ -5,11 +5,11 @@ import './header.css'
 import UserAuth from './userAuth/UserAuth'
 
 // Icons
-import searchIcon from './images/search.svg'
-import searchSettingsIcon from './images/search-settings.svg'
+import searchIcon from '../../images/header_images/search.svg'
+import searchSettingsIcon from '../../images/header_images/search-settings.svg'
 
 // Нужно будет удалить, потому что картинка пользователя будет подгружаться
-import userAvatar from './images/user.png'
+import userAvatar from '../../images/header_images/user.png'
 import UserNotAuth from './userAuth/UserNotAuth'
 
 

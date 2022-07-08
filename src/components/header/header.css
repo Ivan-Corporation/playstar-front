@@ -24,6 +24,23 @@
     width: 78%;
 }
 
+.header_open .header__list {
+    display: none;
+}
+
+
+
+
+
+
+
+@media (max-width:1670px) {
+
+    .header_open .header__item {
+        margin-left: -52px;
+
+    }
+}
 
 
 @media (max-width:1465px) {
@@ -59,6 +76,7 @@
     }
 
 
+
 }
 
 @media (max-width:950px) {
@@ -74,6 +92,17 @@
         left: 15%;
         top: 0%;
     }
+
+    .header_open .search {
+        margin-top: 2%;
+        width: 65%;
+    }
+
+
+    .header_close .header__list {
+        display: none;
+    }
+
 }
 
 @media (max-width:735px) {
@@ -96,7 +125,7 @@
 
     .header_open {
         top: 0%;
-        left: 25%
+        left: 25%;
     }
 
     .header_close {
@@ -104,6 +133,8 @@
         left: 25%;
         width: 30%
     }
+
+
 }
 
 @media (max-width: 1) {}
