@@ -13,6 +13,8 @@ import './components/right_sidebar/drawer/index.css'
 import Header from './components/header/Header';
 import { motion } from 'framer-motion'
 import './components/header/header.css'
+import './components/footer/footer.css'
+import Footer from './components/footer/Footer';
 
 
 function App() {
@@ -93,7 +95,9 @@ function App() {
       </div>
 
       <footer>
+      {isOpen ? <div className='footer_open'> <Footer/></div> :  <div className='footer_close'> <Footer/></div>}
 
+         
       </footer>
     </React.Fragment>
   );

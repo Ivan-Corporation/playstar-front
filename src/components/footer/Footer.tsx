@@ -1,4 +1,9 @@
 import './footer.css'
+import twitch from '../../images/social/twitch.svg'
+import vk from '../../images/social/vk.svg'
+import discord from '../../images/social/discord.svg'
+import logo from '../../images/logo.svg'
+
 
 function Footer() {
 
@@ -10,7 +15,7 @@ function Footer() {
 
                     <div className="footer__logo logo">
                         <a className="logo__link" href="/">
-                            <img className="logo__img" src="img/logo.svg" alt="logo" />
+                            <img className="logo__img" src={logo} alt="logo" />
                         </a>
                     </div>
 
@@ -48,19 +53,19 @@ function Footer() {
 
                             <li className="social__item">
                                 <a className="social__link" href="/">
-                                    <img src="img/social/vk.svg" className="social__img" alt="vk-icon" />
+                                    <img src={vk} className="social__img" alt="vk-icon" />
                                 </a>
                             </li>
 
                             <li className="social__item">
                                 <a className="social__link" href="/">
-                                    <img className="social__img" src="./img/social/twitch.svg" alt="twitch-icon" />
+                                    <img className="social__img" src={twitch} alt="twitch-icon" />
                                 </a>
                             </li>
 
                             <li className="social__item">
                                 <a className="social__link" href="/">
-                                    <img className="social__img" src="./img/social/discord.svg" alt="discord-icon" />
+                                    <img className="social__img" src={discord} alt="discord-icon" />
                                 </a>
                             </li>
 

@@ -1,24 +1,147 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+
+
+.footer_close {
+    position: absolute;
+    width: 98%;
+    bottom: 0%;
+
+
 }
 
-body {
-    background: #000;
+.footer_open {
+    position: absolute;
+
+    bottom: 0%;
+    width: 85.5%;
+}
+
+
+
+@media (max-width:1465px) {
+
+    .footer_open {
+        width: 81.5%;
+
+        bottom: 0%;
+    }
+
+    .footer__social {
+        margin-right: 8%;
+
+    }
+}
+
+@media (max-width:1330px) {
+
+    .footer_open .footer__social {
+        bottom: 0%;
+        margin-right: 10%;
+    }
+
+    .footer_open .footer__social {
+        bottom: 0%;
+    }
+
+    .footer_close {
+        width: 98%;
+        bottom: 0%;
+
+    }
+
+
+}
+
+@media (max-width:1090px) {
+
+    .footer_open .footer__social {
+        bottom: 0%;
+    }
+
+    .footer_open .footer__logo {
+        margin-left: 0%;
+    }
+
+    .footer__inner {
+        padding: 44px 0;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+
+
+    .footer__menu .menu__list {
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+        justify-content: center;
+        margin-left: 5%;
+    }
+
+}
+
+@media (max-width:950px) {
+
+    .footer_open {
+        bottom: 0%;
+
+    }
+
+    .footer_close {
+        width: 98%;
+        bottom: 0%;
+
+    }
+
+
+}
+
+@media (max-width:735px) {
+
+    .footer_open {
+        bottom: 0%;
+
+    }
+
+    .footer_close {
+        width: 98%;
+        bottom: 0%;
+
+    }
+}
+
+
+@media (max-width:580px) {
+
+    .footer_open {
+        bottom: 0%;
+
+
+    }
+
+    .footer_close {
+        bottom: 0%;
+
+        width: 98%;
+    }
+
+    .footer__menu .menu__list {
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+        justify-content: space-between;
+        margin-left: 12%;
+    }
 }
 
 .footer {
     background: #0A0A0E;
     font-family: 'Nunito', sans-serif;
+    margin-right: -2%;
 }
 
-.footer__container {
-    width: 1354px;
-    margin: 0 auto;
-}
 
 .footer__inner {
     padding: 44px 0;
@@ -27,7 +150,9 @@ body {
 }
 
 /* Logo */
-.footer__logo {}
+.footer__logo {
+    margin-left: 5%;
+}
 
 .footer__logo .logo__link {
     text-decoration: none;
@@ -48,6 +173,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     list-style: none;
+
 }
 
 .footer__menu .menu__item {
@@ -74,12 +200,16 @@ body {
 }
 
 /* Social */
-.footer__social {}
+.footer__social {
+    margin-right: 5%;
+
+}
 
 .footer__social .social__list {
     display: flex;
     align-items: center;
     list-style: none;
+
 }
 
 .footer__social .social__item {
