@@ -1,7 +1,7 @@
 import './footer.css'
-import twitch from '../../images/social/twi.svg'
-import vk from '../../images/social/kv.svg'
-import discord from '../../images/social/dis.svg'
+import twi from '../../images/so-icons/twi.svg'
+import kv from '../../images/so-icons/kv.svg'
+import dis from '../../images/so-icons/dis.svg'
 import logo from '../../images/logo.svg'
 
 
@@ -48,24 +48,24 @@ function Footer() {
                         </ul>
                     </div>
 
-                    <div className="footer__social">
-                        <ul className="social__list">
+                    <div className="footer__so-icons">
+                        <ul className="so-icons__list">
 
-                            <li className="social__item">
-                                <a className="social__link" href="/">
-                                    <img src={vk} className="social__img" alt="vk-icon" />
+                            <li className="so-icons__item">
+                                <a className="so-icons__link" href="/">
+                                    <img src={kv} className="so-icons__img" alt="kv-icon" />
                                 </a>
                             </li>
 
-                            <li className="social__item">
-                                <a className="social__link" href="/">
-                                    <img className="social__img" src={twitch} alt="twitch-icon" />
+                            <li className="so-icons__item">
+                                <a className="so-icons__link" href="/">
+                                    <img className="so-icons__img" src={twi} alt="twi-icon" />
                                 </a>
                             </li>
 
-                            <li className="social__item">
-                                <a className="social__link" href="/">
-                                    <img className="social__img" src={discord} alt="discord-icon" />
+                            <li className="so-icons__item">
+                                <a className="so-icons__link" href="/">
+                                    <img className="so-icons__img" src={dis} alt="dis-icon" />
                                 </a>
                             </li>
 
