@@ -1,7 +1,7 @@
 import './footer.css'
-import twitch from '../../images/social/twitch.svg'
-import vk from '../../images/social/vk.svg'
-import discord from '../../images/social/discord.svg'
+import twitch from '../../images/social/twi.svg'
+import vk from '../../images/social/kv.svg'
+import discord from '../../images/social/dis.svg'
 import logo from '../../images/logo.svg'
 
 
