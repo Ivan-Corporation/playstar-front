@@ -2,7 +2,7 @@
     position: absolute;
     left: 7%;
     width: 91%;
-    top: 7%;
+    top: 11%;
 
 
 }
@@ -10,7 +10,7 @@
 .slider__horizontal_open {
     position: absolute;
 
-    top: 7%;
+    top: 12%;
     left: 7%;
     width: 78%;
 }
@@ -22,7 +22,13 @@
     .slider__horizontal_open {
         width: 70%;
         left: 12%;
-        top: 2%;
+        top: 12%;
+    }
+
+    .slider__horizontal_close {
+        left: 7%;
+        width: 91%;
+        top: 13%;
     }
 }
 
@@ -31,13 +37,13 @@
     .slider__horizontal_open {
         width: 65%;
         left: 12%;
-        top: 3%;
+        top: 11%;
     }
 
     .slider__horizontal_close {
         width: 85%;
         left: 12%;
-        top: 3%;
+        top: 11%;
     }
 }
 
@@ -46,7 +52,13 @@
     .slider__horizontal_open {
         width: 60%;
         left: 12%;
-        top: 0%;
+        top: 10%;
+    }
+
+    .slider__horizontal_open {
+        width: 60%;
+        left: 12%;
+        top: 10%;
     }
 
 
@@ -57,13 +69,13 @@
     .slider__horizontal_open {
         width: 60%;
         left: 14%;
-        top: 0%;
+        top: 10%;
     }
 
     .slider__horizontal_open {
         width: 79%;
         left: 15%;
-        top: 0%;
+        top: 10%;
     }
 }
 
@@ -72,13 +84,13 @@
     .slider__horizontal_open {
         width: 50%;
         left: 17%;
-        top: 0%;
+        top: 10%;
     }
 
     .slider__horizontal_close {
         width: 76%;
         left: 19%;
-        top: 0%;
+        top: 10%;
     }
 }
 
@@ -86,12 +98,12 @@
 @media (max-width:580px) {
 
     .slider__horizontal_open {
-        top: 0%;
+        top: 10%;
         left: 25%
     }
 
     .slider__horizontal_close {
-        top: 0%;
+        top: 10%;
         left: 25%;
         width: 30%
     }

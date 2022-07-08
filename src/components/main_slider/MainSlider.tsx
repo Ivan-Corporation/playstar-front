@@ -3,10 +3,10 @@ import AwsSliderStyles from './core/styles.scss';
 import withAutoplay from 'react-awesome-slider/dist/autoplay';
 import React, {useEffect} from "react";
 
-import sliderExample from './slider/slider-example.png'
-import sliderExample2 from './slider/slider-example2.jpg'
-import sliderExample3 from './slider/slider-example3.jpg'
-import sliderExample4 from './slider/slider-example4.jpg'
+import sliderExample from './slider_img_examples/slider-example.png'
+import sliderExample2 from './slider_img_examples/slider-example2.jpg'
+import sliderExample3 from './slider_img_examples/slider-example3.jpg'
+import sliderExample4 from './slider_img_examples/slider-example4.jpg'
 
 
 

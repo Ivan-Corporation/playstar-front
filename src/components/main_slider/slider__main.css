@@ -1,14 +1,14 @@
 .slider__main_open {
     position: absolute;
     left: 7%;
-    top: 28%;
+    top: 25%;
     width: 78%;
 }
 
 .slider__main_close {
     position: absolute;
     left: 7%;
-    top: 28%;
+    top: 25%;
     width: 91%;
 }
 
@@ -24,13 +24,13 @@
     .slider__main_open {
         width: 65%;
         left: 12%;
-        top: 30%;
+        top: 26%;
     }
 
     .slider__main_close {
         width: 85%;
         left: 12%;
-        top: 30%;
+        top: 26%;
 
     }
 }
@@ -58,11 +58,13 @@
     .slider__main_open {
         width: 50%;
         left: 17%;
+        top: 22%;
     }
 
     .slider__main_close {
         left: 19%;
         width: 76%;
+        top: 22%;
     }
 }
 
@@ -70,7 +72,8 @@
 @media (max-width:580px) {
     .slider__main_open {
 
-        left: 25%
+        left: 25%;
+
     }
 }
 

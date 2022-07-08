@@ -108,7 +108,7 @@ function HorizontalScroll() {
 
 
   <div>
-      <header>
+      {/* <header>
       <motion.div
                 initial={{ opacity: 0, y: -180 }}
                 animate={{ opacity: 1, y: 0 }}
@@ -120,7 +120,7 @@ function HorizontalScroll() {
                 >
       <Header/>
       </motion.div>
-        </header>
+        </header> */}
     
         <motion.div
                 initial={{ opacity: 0, y: -180 }}

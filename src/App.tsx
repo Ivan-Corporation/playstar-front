@@ -12,7 +12,7 @@ import CardExample from './components/right_sidebar/card/CardExample'
 import './components/right_sidebar/drawer/index.css'
 import Header from './components/header/Header';
 import { motion } from 'framer-motion'
-
+import './components/header/header.css'
 
 
 function App() {
@@ -28,7 +28,20 @@ function App() {
     
 
       <div>
+      <header>
+      <motion.div
+                initial={{ opacity: 0, y: -180 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{
+                    ease: "easeInOut",
+                    duration: 1,
+                    delay: 0.4,
+                }}
+                >
+                 {isOpen ? <div className='header_open'><Header/></div> : <div className='header_close'><Header/></div>}
       
+      </motion.div>
+        </header>
         {isOpen ? <div className='slider__horizontal_open'><HorizontalScroll /></div> :  <div className='slider__horizontal_close'><HorizontalScroll /></div>}
         
        

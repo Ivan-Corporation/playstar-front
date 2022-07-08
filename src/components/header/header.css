@@ -7,6 +7,104 @@
     height: 50px;
 }
 
+.header_close {
+    position: absolute;
+    left: 7%;
+    width: 91%;
+    top: 7%;
+
+
+}
+
+.header_open {
+    position: absolute;
+
+    top: 7%;
+    left: 7%;
+    width: 78%;
+}
+
+
+
+@media (max-width:1465px) {
+
+    .header_open {
+        width: 70%;
+        left: 12%;
+        top: 2%;
+    }
+}
+
+@media (max-width:1330px) {
+
+    .header_open {
+        width: 65%;
+        left: 12%;
+        top: 3%;
+    }
+
+    .header_close {
+        width: 85%;
+        left: 12%;
+        top: 3%;
+    }
+}
+
+@media (max-width:1090px) {
+
+    .header_open {
+        width: 60%;
+        left: 12%;
+        top: 0%;
+    }
+
+
+}
+
+@media (max-width:950px) {
+
+    .header_open {
+        width: 60%;
+        left: 14%;
+        top: 0%;
+    }
+
+    .header_open {
+        width: 79%;
+        left: 15%;
+        top: 0%;
+    }
+}
+
+@media (max-width:735px) {
+
+    .header_open {
+        width: 50%;
+        left: 17%;
+        top: 0%;
+    }
+
+    .header_close {
+        width: 76%;
+        left: 19%;
+        top: 0%;
+    }
+}
+
+
+@media (max-width:580px) {
+
+    .header_open {
+        top: 0%;
+        left: 25%
+    }
+
+    .header_close {
+        top: 0%;
+        left: 25%;
+        width: 30%
+    }
+}
 
 @media (max-width: 1) {}
 

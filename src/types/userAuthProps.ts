@@ -1,5 +1,5 @@
 export interface AuthProps  {
-    userIcon : string,
+    userIcon :string,
     userName:string,
     changeAuth:any
 }

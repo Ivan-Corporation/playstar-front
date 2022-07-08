@@ -9,7 +9,11 @@
 <li><strike>Glow stars</strike>
 <li><strike>Refactor code</strike>
 <li><strike>Responsive on drawer state change</strike>
-<li>Header
+<li><strike>Header</strike>
 <li>Footer
-<li>Framer motion
+<li>Images in image folder
+<li><strike>Framer motion</strike>
+
+
+___________________
 </ul>
