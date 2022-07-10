@@ -10,10 +10,22 @@
 <li><strike>Refactor code</strike>
 <li><strike>Responsive on drawer state change</strike>
 <li><strike>Header</strike>
-<li>Footer
-<li>Images in image folder
+<li><strike>Footer</strike>
+<li><strike>Images in image folder</strike>
 <li><strike>Framer motion</strike>
+
+<li>Redux Toolkit
+<li>Modal windows
+<li>React Router v6
+
+
+
 
 
 ___________________
+
+
+<li>Right sidebar from bottom on small devices
+
+
 </ul>
