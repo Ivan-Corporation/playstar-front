@@ -1,0 +1,78 @@
+.modal__title {
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+}
+
+.modal__reset-pass {
+    text-decoration: underline;
+    color: #494959;
+}
+
+.modal__reset-pass:hover {
+    cursor: pointer;
+    color: #ffffff;
+}
+
+.modal__soc {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.modal__soc-icons {
+    width: 48px;
+    cursor: pointer;
+}
+
+
+.modal__login {
+    background-color: #1A1A22;
+    padding: 30px 60px;
+    border-radius: 10px;
+    width: 478px;
+    height: 387px;
+}
+
+.modal__form {
+    display: flex;
+    align-items: center;
+    background: #292935;
+    margin-top: 31px;
+    margin-bottom: 11px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 6px;
+    width: 100%;
+
+
+}
+
+.modal__form_input {
+    flex-grow: 1;
+    border: none;
+    background: none;
+    outline: none;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Nunito';
+    padding: 0 10px;
+    color: white;
+}
+
+.modal_buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.modal__button_blue {
+    width: 160px;
+    height: 44px;
+    border-radius: 9px;
+    background-color: #288BFF;
+    color: #FFFFFF;
+    margin-left: 6px;
+
+    font-weight: 550;
+}
