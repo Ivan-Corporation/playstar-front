@@ -1,0 +1,66 @@
+.modal__captcha {
+    background-color: #1A1A22;
+    padding: 30px 60px;
+    border-radius: 10px;
+    width: 578px;
+    height: 487px;
+}
+
+.modal__soc-icons-close {
+    width: 20px;
+    cursor: pointer;
+    margin-left: 100%;
+}
+
+.modal__form-captcha {
+    display: flex;
+    align-items: center;
+    background: #292935;
+    margin-top: 10px;
+    margin-bottom: 11px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 6px;
+    width: 100%;
+    height: 40%;
+}
+
+.modal__form {
+    display: flex;
+    align-items: center;
+    background: #292935;
+    margin-top: 10px;
+    margin-bottom: 11px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 6px;
+    width: 100%;
+}
+
+
+
+
+
+.modal__form_input {
+    flex-grow: 1;
+    border: none;
+    background: none;
+    outline: none;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Nunito';
+    padding: 0 10px;
+    color: white;
+}
+
+.modal__form_input-captcha {
+    flex-grow: 1;
+    border: none;
+    background: none;
+    outline: none;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Nunito';
+    padding: 0 10px;
+    color: white;
+}

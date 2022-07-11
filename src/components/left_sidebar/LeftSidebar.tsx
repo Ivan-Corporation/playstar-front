@@ -1,5 +1,6 @@
 import React from 'react'
 import './left_sidebar.css'
+import { Link, NavLink } from "react-router-dom";
 
 import logoIcon from '../../images/logo.svg'
 
@@ -55,7 +56,8 @@ function LeftSidebar() {
           </li>
 
           <li className="sidebar__menu-item">
-            <a className="sidebar__menu-link sidebar__menu-link_active" href="#">
+            <NavLink to="/" className={({ isActive }) => 
+                      (isActive ? "sidebar__menu-link sidebar__menu-link_active" : "sidebar__menu-link")}>
               <svg
                 className="sidebar__menu-icon_star"
                 viewBox="0 0 32 29"
@@ -67,11 +69,13 @@ function LeftSidebar() {
                   strokeWidth="2"
                 />
               </svg>
-            </a>
+            </NavLink>
           </li>
 
           <li className="sidebar__menu-item">
-            <a className="sidebar__menu-link" href="#">
+          <NavLink to="/money" className={({ isActive }) => 
+                      (isActive ? "sidebar__menu-link sidebar__menu-link_active" : "sidebar__menu-link")}>
+            
               <svg
                 className="sidebar__menu-icon_payments"
                 viewBox="0 0 31 24"
@@ -86,7 +90,7 @@ function LeftSidebar() {
                   d="M13.4333 14.9037C15.9973 14.9037 18.0833 12.7077 18.0833 10.0084C18.0833 7.30906 15.9973 5.113 13.4333 5.113C10.8694 5.113 8.78333 7.309 8.78333 10.0084C8.78333 12.7077 10.8694 14.9037 13.4333 14.9037ZM13.4333 7.113C14.8578 7.113 16.0167 8.41187 16.0167 10.0084C16.0167 11.6049 14.8578 12.9037 13.4333 12.9037C12.0089 12.9037 10.85 11.6049 10.85 10.0084C10.85 8.41187 12.0089 7.113 13.4333 7.113ZM4.13333 4.5H6.2V15.5H4.13333V4.5ZM20.6667 4.5H22.7333V15.5H20.6667V4.5Z"
                 />
               </svg>
-            </a>
+            </NavLink>
           </li>
 
           <li className="sidebar__menu-item">

@@ -3,7 +3,7 @@
 
 
 .footer_close {
-    position: absolute;
+    position: sticky;
     width: 98%;
     bottom: 0%;
 
@@ -11,7 +11,7 @@
 }
 
 .footer_open {
-    position: absolute;
+    position: sticky;
 
     bottom: 0%;
     width: 85.5%;
