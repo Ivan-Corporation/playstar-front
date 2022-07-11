@@ -1,10 +1,50 @@
 import React from "react";
-
+import { useModal } from "../../../hooks/useModal";
+import close_modal from '../../../images/so-icons/modal/close_modal.svg'
+import '../../captcha/captcha.css'
 import { AuthProps } from "../../../types/userAuthProps";
+import captcha from '../../../images/captcha/captcha.png'
+
 
 // changeAuth временная
 function userAuth({ userIcon, userName, changeAuth }: AuthProps) {
+
+
+
+  // eslint-disable-next-line react-hooks/rules-of-hooks
+  const [ModalCaptcha, captcha_open, captcha_close, captcha_isOpen] = useModal('root', {
+    preventScroll: true,
+    closeOnOverlayClick: true
+  });
+
+
+
+
+
+
   return (
+    <React.Fragment>
+      <ModalCaptcha>
+        <div className='modal__captcha'>
+        <img onClick={captcha_close} className='modal__soc-icons-close' src={close_modal} alt='so-icons'/>
+  
+          <h1 className='modal__title' style={{marginBottom:'29px'}}>Подтвердите что вы не робот </h1>
+         
+          <div className="modal__form-captcha">
+                <input className="modal__form_input-captcha" placeholder="" type='text' required/>
+                <img src={captcha} style={{width:'180px', marginRight:'50%'}} alt='captcha' />
+
+            </div>
+          <div className="modal__form">
+                <input className="modal__form_input" placeholder="Введите капчу" type="text" required/>
+            </div>
+           
+            <div className='modal_buttons' style={{marginTop:'30px'}}>
+          <button className='modal__button_blue' onClick={captcha_close}>ЗАВЕРШИТЬ</button>
+          </div>
+        </div>
+      </ModalCaptcha>
+    
     <ul className="header__list">
       <li className="header__item header__user-info">
         <h2 className="header__user-name">Слава Занегин</h2>
@@ -13,7 +53,7 @@ function userAuth({ userIcon, userName, changeAuth }: AuthProps) {
         </div>
       </li>
 
-      <li className="header__item">
+      <li className="header__item" onClick={captcha_open}>
         <svg
           className="header__icon"
           viewBox="0 0 26 26"
@@ -64,6 +104,7 @@ function userAuth({ userIcon, userName, changeAuth }: AuthProps) {
         </svg>
       </li>
     </ul>
+    </React.Fragment>
   );
 }
 

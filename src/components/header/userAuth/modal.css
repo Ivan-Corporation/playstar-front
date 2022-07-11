@@ -1,3 +1,39 @@
+.modal__login {
+    background-color: #1A1A22;
+    padding: 30px 60px;
+    border-radius: 10px;
+    width: 478px;
+    height: 387px;
+}
+
+.modal__reset {
+    background-color: #1A1A22;
+    padding: 30px 60px;
+    border-radius: 10px;
+    width: 508px;
+    height: 305px;
+}
+
+.modal__registration {
+    background-color: #1A1A22;
+    padding: 30px 60px;
+    border-radius: 10px;
+    width: 578px;
+    height: 567px;
+}
+
+.modal__registration-two {
+    background-color: #1A1A22;
+    padding: 30px 60px;
+    border-radius: 10px;
+    width: 658px;
+    height: 507px;
+}
+
+
+
+
+
 .modal__title {
     display: flex;
     justify-content: center;
@@ -9,6 +45,11 @@
     color: #494959;
 }
 
+.modal__email-check {
+    color: #494959;
+    margin-bottom: 18px;
+}
+
 .modal__reset-pass:hover {
     cursor: pointer;
     color: #ffffff;
@@ -18,6 +59,7 @@
     display: flex;
     justify-content: space-evenly;
     margin-top: 30px;
+    margin-bottom: 45px;
 }
 
 .modal__soc-icons {
@@ -25,28 +67,29 @@
     cursor: pointer;
 }
 
-
-.modal__login {
-    background-color: #1A1A22;
-    padding: 30px 60px;
-    border-radius: 10px;
-    width: 478px;
-    height: 387px;
+.modal__soc-icons-close {
+    width: 20px;
+    cursor: pointer;
+    margin-left: 100%;
 }
+
+
 
 .modal__form {
     display: flex;
     align-items: center;
     background: #292935;
-    margin-top: 31px;
+    margin-top: 10px;
     margin-bottom: 11px;
     padding-top: 10px;
     padding-bottom: 10px;
     border-radius: 6px;
     width: 100%;
-
-
 }
+
+
+
+
 
 .modal__form_input {
     flex-grow: 1;
@@ -73,6 +116,32 @@
     background-color: #288BFF;
     color: #FFFFFF;
     margin-left: 6px;
-
+    border-width: 0px;
     font-weight: 550;
+    cursor: pointer;
+}
+
+.modal__button_blue:hover {
+
+    background-color: #1f70cc;
+
+}
+
+.modal__button_blue-border {
+    width: 160px;
+    height: 44px;
+    border-radius: 9px;
+    background-color: #288cff00;
+    border: 1px solid #288BFF;
+    color: #288BFF;
+    margin-left: 6px;
+    border-width: 1px;
+    font-weight: 550;
+    cursor: pointer;
+}
+
+.modal__button_blue-border:hover {
+
+    border: 2px solid rgb(39, 140, 255);
+
 }
