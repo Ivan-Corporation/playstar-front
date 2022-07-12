@@ -18,7 +18,8 @@ function LeftSidebar() {
           
         {/* Для активации кнопки добавляем класс sidebar__menu-link_active к тегу a c классом sidebar__menu-link */}
           <li className="sidebar__menu-item">
-            <a className="sidebar__menu-link" href="#">
+          <NavLink to="/favorites" className={({ isActive }) => 
+                      (isActive ? "sidebar__menu-link sidebar__menu-link_active" : "sidebar__menu-link")}>
               <svg
                 className="sidebar__menu-icon_like"
                 viewBox="0 0 33 30"
@@ -36,12 +37,13 @@ function LeftSidebar() {
                   mask="url(#path-1-inside-1_15_661)"
                 />
               </svg>
-            </a>
+            </NavLink>
           </li>
 
           <li className="sidebar__menu-item">
-            <a className="sidebar__menu-link" href="#">
-              <svg
+          <NavLink to="/profile" className={({ isActive }) => 
+                      (isActive ? "sidebar__menu-link sidebar__menu-link_active" : "sidebar__menu-link")}>              
+                      <svg
                 className="sidebar__menu-icon_users"
                 viewBox="0 0 22 27"
                 fill="none"
@@ -52,7 +54,7 @@ function LeftSidebar() {
                   strokeWidth="1"
                 />
               </svg>
-            </a>
+            </NavLink>
           </li>
 
           <li className="sidebar__menu-item">
@@ -94,7 +96,8 @@ function LeftSidebar() {
           </li>
 
           <li className="sidebar__menu-item">
-            <a className="sidebar__menu-link" href="#">
+          <NavLink to="/rooms" className={({ isActive }) => 
+                      (isActive ? "sidebar__menu-link sidebar__menu-link_active" : "sidebar__menu-link")}>
               <svg
                 className="sidebar__menu-icon_progress"
                 viewBox="0 0 31 25"
@@ -112,7 +115,7 @@ function LeftSidebar() {
                   d="M22.2783 4.15324C22.1574 4.15625 22.0384 4.18399 21.9285 4.2348C21.8185 4.28562 21.7198 4.35844 21.6384 4.44889L14.2015 12.7214L10.2069 10.0989C10.1082 10.0341 9.99772 9.9896 9.88194 9.96803C9.76616 9.94645 9.64731 9.9482 9.53219 9.97318C9.41708 9.99815 9.30797 10.0459 9.2111 10.1136C9.11423 10.1813 9.03151 10.2676 8.96768 10.3677L3.76503 18.5308C3.11479 19.5467 4.62438 20.5315 5.27033 19.5123L9.98601 12.113L13.8653 14.6601C14.0434 14.777 14.2567 14.8261 14.4672 14.7986C14.6778 14.771 14.8718 14.6687 15.0146 14.5098L22.1977 6.51954L29.3368 17.1746C29.9992 18.2087 31.5221 17.1645 30.8185 16.1587L23.0413 4.54998C22.9571 4.42449 22.8432 4.32241 22.7099 4.25309C22.5765 4.18378 22.4281 4.14944 22.2783 4.15324Z"
                 />
               </svg>
-            </a>
+            </NavLink>
           </li>
         </ul>
       </div>

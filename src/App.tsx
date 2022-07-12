@@ -15,6 +15,9 @@ import {
 } from "react-router-dom";
 import Money from './pages/Money';
 import LeftSidebar from './components/left_sidebar/LeftSidebar';
+import Rooms from './pages/Rooms';
+import Favorites from './pages/Favorites';
+import Profile from './pages/Profile';
 
 function App() {
 
@@ -73,6 +76,9 @@ function App() {
             
             <Route path="/" element={<Home toggleDrawer={toggleDrawer} isOpen={isOpen}/>}/>
             <Route path="/money" element={<Money/>}/>
+            <Route path="/rooms" element={<Rooms/>}/>
+            <Route path="/favorites" element={<Favorites/>}/>
+            <Route path="/profile" element={<Profile/>}/>
         
       
     </Routes>
