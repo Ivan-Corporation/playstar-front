@@ -17,6 +17,9 @@
 <li>Redux Toolkit
 <li>Modal windows
 <li>React Router v6
+<li>Table
+<li>React menu for filter 
+<li>MOCK
 
 
 
