@@ -1,4 +1,9 @@
-# Test for PlayStar
+<h1 align='center'>PlayStar - Frontend</h1>
+<h3 align='center'>Open source test for startup project that will be provide web application with big backend support that can give you opportunity to play games with money stakes 💰</h3>
+<br/>
+<div align='center'><img  src='./public/logo512.png' width='200px'/></div>
+<br/>
+<hr/>
 
 0.1Alpha
 <ul>
@@ -13,22 +18,21 @@
 <li><strike>Footer</strike>
 <li><strike>Images in image folder</strike>
 <li><strike>Framer motion</strike>
+</ul>
 
+0.2Alpha
+<ul>
 <li>Redux Toolkit
 <li>Modal windows
 <li>React Router v6
 <li>Table
 <li>React menu for filter 
 <li>MOCK
-
-
-
-
-
-___________________
-
-
-<li>Right sidebar from bottom on small devices
-
-
 </ul>
+
+
+
+
+
+
+
